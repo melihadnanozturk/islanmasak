@@ -24,6 +24,9 @@ const locations = [
   // },
 ];
 
+
+
+
 // Haritanın merkez noktası (tüm otomatların ortalama konumu)
 const centerPosition: [number, number] = [40.756821, 30.373275];
 
