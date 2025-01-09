@@ -8,24 +8,14 @@ import L from 'leaflet';
 // Otomat konumları
 const locations = [
   {
-    position: [40.74367391170544, 30.328450503240276],
+    position: [40.7414, 30.327],
     name: "Serdivan AVM Otomatı",
-  },
-  {
-    position: [40.756821, 30.373275],
-    name: "Sakarya Üniversitesi Otomatı",
-  },
-  {
-    position: [40.778055, 30.398611],
-    name: "Adapazarı Merkez Otomatı",
-  },
-  {
-    position: [40.742222, 30.333333],
-    name: "Erenler Metro Otomatı",
-  },
-  {
-    position: [40.600000, 30.398611],
-    name: "Adapazarı Merkez Otomatı",
+  },{
+    position: [40.74139, 30.32667],
+    name: "Serdivan AVM Otomatı",
+  },{
+    position: [40.74278, 30.33333],
+    name: "Serdivan AVM Otomatı",
   },
   // Yeni konumlar eklemek için:
   // {

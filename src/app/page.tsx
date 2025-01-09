@@ -25,7 +25,7 @@ export default function Home() {
             onMouseLeave={() => setIsHovered(false)}
           >
             <h1 className="text-6xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-blue-400 dark:to-cyan-300 tracking-tight">
-              ıslanmasak
+              ıslanma-Sak
             </h1>
             <AnimatePresence>
               <RainEffect isActive={isHovered} />
