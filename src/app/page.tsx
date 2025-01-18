@@ -96,6 +96,42 @@ export default function Home() {
                 </div>
             </section>
 
+            {/* Ana Ürünler Section */}
+            <section className="min-h-screen py-20 px-4 bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-900 dark:to-blue-900">
+                <div className="max-w-7xl mx-auto">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                        <motion.div
+                            initial={{opacity: 0, y: 50}}
+                            whileInView={{opacity: 1, y: 0}}
+                            viewport={{once: true}}
+                            transition={{duration: 0.8, ease: "easeOut"}}
+                            className="space-y-6"
+                        >
+                            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-gray-100">
+                                Ana Ürünler
+                            </h2>
+                            <p className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed">
+                                Hafif, taşınabilir ve ekonomik yağmurluklar
+                            </p>
+                        </motion.div>
+                        <motion.div
+                            initial={{opacity: 0, y: 50}}
+                            whileInView={{opacity: 1, y: 0}}
+                            viewport={{once: true}}
+                            transition={{duration: 0.8, ease: "easeOut", delay: 0.2}}
+                        >
+                            <div className="relative h-[400px] w-full rounded-xl overflow-hidden shadow-lg">
+                                <img
+                                    src="/yagmurluk.jpg"
+                                    alt="Yağmurluk"
+                                    className="object-cover w-full h-full"
+                                />
+                            </div>
+                        </motion.div>
+                    </div>
+                </div>
+            </section>
+
             {/* Footer */}
             <footer className="w-full py-6 px-4 bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm">
                 <div className="max-w-7xl mx-auto">
