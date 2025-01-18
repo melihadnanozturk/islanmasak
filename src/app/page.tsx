@@ -84,10 +84,11 @@ export default function Home() {
                                 Proje Hakkında
                             </h2>
                             <p className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed">
-                                Yağmurlu havalarda insanların şemsiye ve yağmurluk ihtiyaçlarını anında karşılamak için
-                                şehrin çeşitli noktalarına yerleştirdiğimiz akıllı otomatlar ile hizmet veriyoruz.
-                                Haritada gösterilen noktalarda yer alan otomatlarımızdan 7/24 yağmurluk temin
-                                edebilirsiniz.
+                                IslanmaSAK, ani yağışlara hazırlıksız yakalanan bireyler için pratik ve yenilikçi bir çözüm sunar. 
+                                Şehirdeki stratejik noktalara yerleştirilen akıllı otomatlar, tek kullanımlık yağmurluklar ve 
+                                mevsimsel ihtiyaç ürünleriyle kullanıcıların günlük yaşamını kolaylaştırmayı hedefler. 
+                                Çevre dostu geri dönüşüm sistemi, mobil uygulama desteği ve hızlı erişim imkanıyla IslanmaSAK, 
+                                hem bireyler hem de doğa için sürdürülebilir bir çözüm sunar.
                             </p>
                         </motion.div>
                         <Map/>
