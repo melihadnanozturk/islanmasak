@@ -126,6 +126,8 @@ export default function Home() {
                                     src="/yagmurluk.jpg"
                                     alt="Yağmurluk"
                                     fill
+                                    priority
+                                    sizes="(max-width: 768px) 100vw, 50vw"
                                     className="object-contain bg-white dark:bg-gray-800"
                                 />
                             </div>
@@ -177,6 +179,7 @@ export default function Home() {
                                             src={item.src}
                                             alt={item.alt}
                                             fill
+                                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                                             className="object-contain"
                                         />
                                     </div>
@@ -257,6 +260,8 @@ export default function Home() {
                                     src="/otomat.jpg"
                                     alt="Akıllı Otomat"
                                     fill
+                                    priority
+                                    sizes="(max-width: 768px) 100vw, 50vw"
                                     className="object-contain bg-white dark:bg-gray-800"
                                 />
                             </div>
@@ -392,6 +397,8 @@ export default function Home() {
                                     src="/app.jpg"
                                     alt="Sak-App Mobil Uygulama"
                                     fill
+                                    priority
+                                    sizes="(max-width: 768px) 100vw, 50vw"
                                     className="object-contain bg-white dark:bg-gray-800"
                                 />
                             </div>
