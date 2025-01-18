@@ -13,6 +13,9 @@ const nextConfig = {
             },
         ],
     },
+    basePath: '/islanmasak',
+    assetPrefix: '/islanmasak/',
+    trailingSlash: true,
 }
 
 module.exports = nextConfig
