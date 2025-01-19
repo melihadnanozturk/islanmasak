@@ -123,7 +123,7 @@ export default function Home() {
                         >
                             <div className="relative h-[400px] w-full rounded-xl overflow-hidden shadow-lg">
                                 <Image
-                                    src="./dist/yagmurluk.jpg"
+                                    src="./yagmurluk.jpg"
                                     alt="Yağmurluk"
                                     fill
                                     priority
@@ -157,10 +157,10 @@ export default function Home() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {[
-                            { src: './dist/serinlemeMendil.jpg', alt: 'Serinletici Mendil', title: 'Serinletici Mendiller' },
-                            { src: './dist/ruzgarlik.jpg', alt: 'Rüzgarlık', title: 'Rüzgara Dayanıklı Kıyafetler' },
-                            { src: './dist/isinmaPedi.jpg', alt: 'Isınma Pedi', title: 'El Isıtıcıları' },
-                            { src: './dist/folyoBattaniye.jpg', alt: 'Folyo Battaniye', title: 'Folyo Battaniyeler' }
+                            { src: './serinlemeMendil.jpg', alt: 'Serinletici Mendil', title: 'Serinletici Mendiller' },
+                            { src: './ruzgarlik.jpg', alt: 'Rüzgarlık', title: 'Rüzgara Dayanıklı Kıyafetler' },
+                            { src: './isinmaPedi.jpg', alt: 'Isınma Pedi', title: 'El Isıtıcıları' },
+                            { src: './folyoBattaniye.jpg', alt: 'Folyo Battaniye', title: 'Folyo Battaniyeler' }
                         ].map((item, index) => (
                             <motion.div
                                 key={index}
@@ -257,7 +257,7 @@ export default function Home() {
                         >
                             <div className="relative h-[500px] w-full rounded-xl overflow-hidden shadow-lg">
                                 <Image
-                                    src="./dist/otomat.jpg"
+                                    src="./otomat.jpg"
                                     alt="Akıllı Otomat"
                                     fill
                                     priority
@@ -394,7 +394,7 @@ export default function Home() {
                         >
                             <div className="relative h-[600px] w-full rounded-xl overflow-hidden shadow-lg">
                                 <Image
-                                    src="./dist/app.jpg"
+                                    src="./app.jpg"
                                     alt="Sak-App Mobil Uygulama"
                                     fill
                                     priority
