@@ -8,23 +8,52 @@ import L from 'leaflet';
 // Otomat konumları
 const locations = [
     {
-        position: [40.7414, 30.327],
-        name: "Serdivan AVM Otomatı",
-    }, {
-        position: [40.74139, 30.32667],
-        name: "Serdivan AVM Otomatı",
-    }, {
-        position: [40.74278, 30.33333],
-        name: "Serdivan AVM Otomatı",
-    },
-    // Yeni konumlar eklemek için:
-    // {
-    //   position: [enlem, boylam],
-    //   name: "Otomat Adı",
-    // },
+    position: [40.74278, 30.33333],
+}, {
+    position: [40.74333, 30.33083],
+}, {
+    position: [40.74028, 30.33194],
+}, {
+    position: [40.74306, 30.33833],
+}, {
+    position: [40.74583, 30.34694],
+}, {
+    position: [40.74806, 30.35278],
+}, {
+    position: [40.76278, 30.36278],
+}, {
+    position: [40.75972, 30.39111],
+}, {
+    position: [40.75833, 30.38889],
+}, {
+    position: [40.77444, 30.38583],
+}, {
+    position: [40.77222, 30.36361],
+}, {
+    position: [40.77722, 30.38722],
+}, {
+    position: [40.77889, 30.36583],
+}, {
+    position: [40.77611, 30.36472],
+}, {
+    position: [40.77611, 30.40056],
+}, {
+    position: [40.77667, 30.39250],
+}, {
+    position: [40.77389, 30.39528],
+}, {
+    position: [40.69722, 30.26750],
+}, {
+    position: [40.69000, 30.25694],
+}, {
+    position: [40.75750, 30.38722],
+}, {
+    position: [40.77028, 30.38778],
+}
+
 ];
 // Haritanın merkez noktası (tüm otomatların ortalama konumu)
-const centerPosition: [number, number] = [40.756821, 30.373275];
+const centerPosition: [number, number] = [40.76000, 30.36000];
 
 export const Map: React.FC = () => {
     useEffect(() => {
@@ -62,7 +91,7 @@ export const Map: React.FC = () => {
                     >
                         <Popup>
                             <div className="text-center">
-                                <h3 className="font-bold">{location.name}</h3>
+                                <h3 className="font-bold">Otomat</h3>
                                 <p className="text-sm">7/24 Hizmet</p>
                             </div>
                         </Popup>
